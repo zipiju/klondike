@@ -1,4 +1,7 @@
 M48
+;DRILL file {Pcbnew (2013-05-16 BZR 4016)-stable} date 24. 12. 2013 17:26:38
+;FORMAT={2:4/ absolute / inch / suppress leading zeros}
+FMAT,2
 INCH,TZ
 T1C0.012
 T2C0.014
@@ -7,6 +10,7 @@ T4C0.157
 %
 G90
 G05
+M72
 T1
 X39183Y-49990
 X39203Y-51722
