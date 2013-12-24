@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 24. 12. 2013 15:35:33
+EESchema Schematic File Version 2  date 24. 12. 2013 23:53:34
 LIBS:k16
 LIBS:power
 LIBS:device
@@ -30,7 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:k16-cache
 EELAYER 27 0
 EELAYER END
 $Descr A3 16535 11693

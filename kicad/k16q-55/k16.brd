@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 21. 12. 2013 21:44:58
+PCBNEW-BOARD Version 2 date 25. 12. 2013 0:19:56
 
 # Created by Pcbnew(2013-05-16 BZR 4016)-stable
 
@@ -21,12 +21,12 @@ $EndGENERAL
 
 $SHEETDESCR
 Sheet A4 11693 8268
-Title ""
-Date "21 dec 2013"
-Rev ""
+Title "Klondike 16-55 ASIC Miner"
+Date "24 dec 2013"
+Rev "1.0.1"
 Comp ""
-Comment1 ""
-Comment2 ""
+Comment1 "For 55nm Avalons - A255"
+Comment2 "For PIC in QFN package"
 Comment3 ""
 Comment4 ""
 $EndSHEETDESCR
@@ -72,7 +72,7 @@ Pad2MaskClearance 0.1524
 SolderMaskMinWidth 0.1
 Pad2PasteClearance -0.025
 AuxiliaryAxisOrg 98.5 55
-VisibleElements 7FFEF509
+VisibleElements 7FFEF519
 PcbPlotParams (pcbplotparams (layerselection 300449799) (usegerberextensions true) (excludeedgelayer false) (linewidth 0.150000) (plotframeref false) (viasonmask false) (mode 1) (useauxorigin false) (hpglpennumber 1) (hpglpenspeed 20) (hpglpendiameter 15) (hpglpenoverlay 2) (psnegative false) (psa4output false) (plotreference false) (plotvalue false) (plotothertext false) (plotinvisibletext false) (padsonsilk false) (subtractmaskfromsilk true) (outputformat 1) (mirror false) (drillshape 0) (scaleselection 1) (outputdirectory plots/))
 $EndSETUP
 
@@ -13750,7 +13750,7 @@ AR /5196CD55
 Op 0 0 0
 At SMD
 T0 0.2 2.175 1 1 2700 0.1016 N V 26 N "R45"
-T1 0.45 -1.925 1.27 1.27 4500 0.1016 N V 26 N "1K"
+T1 0.45 -1.925 1.27 1.27 4500 0.1016 N V 26 N "390R"
 DS -0.4318 0.3556 0.4318 0.3556 0.1524 25
 DS 0.4318 -0.3556 -0.4318 -0.3556 0.1524 25
 DS -1.47066 -0.78298 1.47066 -0.78298 0.0508 24
@@ -13799,7 +13799,7 @@ AR /5196CD5B
 Op 0 0 0
 At SMD
 T0 0.2 2.175 1 1 2700 0.1016 N V 26 N "R46"
-T1 0.45 -1.925 1.27 1.27 4500 0.1016 N V 26 N "1K"
+T1 0.45 -1.925 1.27 1.27 4500 0.1016 N V 26 N "390R"
 DS -0.4318 0.3556 0.4318 0.3556 0.1524 25
 DS 0.4318 -0.3556 -0.4318 -0.3556 0.1524 25
 DS -1.47066 -0.78298 1.47066 -0.78298 0.0508 24
@@ -15367,7 +15367,7 @@ AR /51967271
 Op 0 0 0
 At SMD
 T0 0.125 -1.6 1 1 0 0.1016 N V 26 N "C274"
-T1 -0.025 2.025 1.27 1.27 0 0.1016 N V 26 N "30pF"
+T1 -0.025 2.025 1.27 1.27 0 0.1016 N V 26 N "470pF"
 DS -0.24384 -0.22352 0.24384 -0.22352 0.1524 25
 DS 0.24384 0.22352 -0.24384 0.22352 0.1524 25
 DS -1.04566 -0.4826 1.04566 -0.4826 0.0508 24
