@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 2 date 25. 12. 2013 0:12:50
+PCBNEW-BOARD Version 2 date 5. 1. 2014 18:10:22
 
 # Created by Pcbnew(2013-05-16 BZR 4016)-stable
 
@@ -22,7 +22,7 @@ $EndGENERAL
 $SHEETDESCR
 Sheet A4 11693 8268
 Title "Klondike 16-55 ASIC Miner"
-Date "24 dec 2013"
+Date "5 jan 2014"
 Rev "1.0.1"
 Comp ""
 Comment1 "For 55nm Avalons - A255"
@@ -43,7 +43,7 @@ TrackWidthList 0.3
 TrackWidthList 0.5
 TrackWidthList 0.8
 TrackWidthList 1
-TrackClearence 0
+TrackClearence 0.16
 ZoneClearence 0.2
 Zone_45_Only 1
 TrackMinWidth 0.2
@@ -68,7 +68,7 @@ TextModSize 1.5 1.5
 TextModWidth 0.15
 PadSize 0.49784 0.29972
 PadDrill 0
-Pad2MaskClearance 0.1524
+Pad2MaskClearance 0
 SolderMaskMinWidth 0.1
 Pad2PasteClearance -0.025
 AuxiliaryAxisOrg 98.5 55
@@ -599,7 +599,7 @@ $EndEQUIPOT
 $NCLASS
 Name "Default"
 Desc "This is the default net class."
-Clearance 0
+Clearance 0.16
 TrackWidth 0.3
 ViaDia 0.6
 ViaDrill 0.3
@@ -26358,8 +26358,8 @@ Po 112.2 65.5 1 1 0.2 0
 De 21 1 0 Normal
 $EndTEXTPCB
 $TEXTPCB
-Te "Klondike 16s-55"
-Po 136.975 139.25 1.75 1.75 0.3 0
+Te "Klondike 16"
+Po 138.9888 139.3444 1.75 1.75 0.3 0
 De 21 1 0 Normal L C
 $EndTEXTPCB
 $DRAWSEGMENT
