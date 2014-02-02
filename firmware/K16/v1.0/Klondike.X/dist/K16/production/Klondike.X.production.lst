@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.20 build 52243 
-                                                                                               Fri Jan 31 11:35:07 2014
+                                                                                               Fri Jan 31 12:30:16 2014
 
 Microchip Technology Omniscient Code Generator (Lite mode) build 52243
      1                           	processor	16LF1459
@@ -6325,7 +6325,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   6237  0DEA  3000               	movlw	0
   6238  0DEB  00C4               	movwf	(_ClockCfg^(0+384)+4)
   6239                           
-  6240                           ;klondike.c: 293: HashTime = 256 - ((WORD)9599/Cfg.HashClock);
+  6240                           ;klondike.c: 293: HashTime = 256 - ((WORD)9598/Cfg.HashClock);
   6241  0DEC  085B               	movf	(_Cfg+1)^(0+384),w
   6242  0DED  0020               	movlb	0	; select bank0
   6243  0DEE  01D9               	clrf	?___lwdiv+1
@@ -6335,7 +6335,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 52243
   6247  0DF2  0020               	movlb	0	; select bank0
   6248  0DF3  01D8               	clrf	?___lwdiv
   6249  0DF4  07D8               	addwf	?___lwdiv,f
-  6250  0DF5  307F               	movlw	127
+  6250  0DF5  307E               	movlw	126
   6251  0DF6  00DA               	movwf	?___lwdiv+2
   6252  0DF7  3025               	movlw	37
   6253  0DF8  00DB               	movwf	?___lwdiv+3
@@ -16447,7 +16447,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.20 build 52243 
-Symbol Table                                                                                   Fri Jan 31 11:35:07 2014
+Symbol Table                                                                                   Fri Jan 31 12:30:16 2014
 
                               _USB_SD_Ptr 0801                                         pc 0002  
                           ___bmul@product 005A                               _SSPSTATbits 0214  

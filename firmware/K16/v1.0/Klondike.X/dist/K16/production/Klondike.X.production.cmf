@@ -11,7 +11,7 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
-$C:\Users\Jojko\AppData\Local\Temp\s57g.obj
+$C:\Users\Jojko\AppData\Local\Temp\s4qc.obj
 end_init CODE 0 12 12 2 2
 reset_vec CODE 0 0 0 2 2
 config CONFIG 0 8007 8007 2 2
@@ -1454,7 +1454,7 @@ btemp 7E 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _sd000 1156 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
 _sd001 100A 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
 _sd002 1072 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
-start 24 0 CODE 0 init C:\Users\Jojko\AppData\Local\Temp\s57g.obj
+start 24 0 CODE 0 init C:\Users\Jojko\AppData\Local\Temp\s4qc.obj
 __end_of_USBCheckVendorRequest 6 0 CODE 0 text57 dist/K16/production\Klondike.X.production.obj
 __size_of_USBCBWakeFromSuspend 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 SetAsicClock@CLOCK_F_VALUE E6 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
@@ -1470,7 +1470,7 @@ _IOCBF 396 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _USBBusIsSuspended 137 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
 _RCREG 199 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _USBWakeFromSuspend 36D6 0 CODE 0 text49 dist/K16/production\Klondike.X.production.obj
-reset_vec 0 0 CODE 0 reset_vec C:\Users\Jojko\AppData\Local\Temp\s57g.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Users\Jojko\AppData\Local\Temp\s4qc.obj
 __size_of_USBWakeFromSuspend 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _UADDR E96 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _HashTime 16B 0 BANK2 1 nvBANK2 dist/K16/production\Klondike.X.production.obj
@@ -1771,7 +1771,7 @@ __Lbank2 0 0 ABS 0 bank2 -
 _InitFAN 377C 0 CODE 0 text21 dist/K16/production\Klondike.X.production.obj
 __Hbank3 0 0 ABS 0 bank3 -
 __Lbank3 0 0 ABS 0 bank3 -
-___latbits 2 0 ABS 0 - C:\Users\Jojko\AppData\Local\Temp\s57g.obj
+___latbits 2 0 ABS 0 - C:\Users\Jojko\AppData\Local\Temp\s4qc.obj
 ___ftmul@exp AA 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
 __Hbank4 0 0 ABS 0 bank4 -
 __Lbank4 0 0 ABS 0 bank4 -
@@ -2132,27 +2132,27 @@ __end_of_USBCB_SOF_Handler 200A 0 CODE 0 text59 dist/K16/production\Klondike.X.p
 __size_ofi1___wmul 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 __end_of_USBCBSuspend 2006 0 CODE 0 text61 dist/K16/production\Klondike.X.production.obj
 _VerySlowTick 13F 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
-intlevel0 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s57g.obj
+intlevel0 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s4qc.obj
 __CFG_WDTE$OFF 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 __size_of_ISRCode 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _configDescriptor1 10DA 0 STRING 0 strings dist/K16/production\Klondike.X.production.obj
-intlevel1 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s57g.obj
+intlevel1 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s4qc.obj
 _USBCBSuspend 2004 0 CODE 0 text61 dist/K16/production\Klondike.X.production.obj
 _ProcessIO 2524 0 CODE 0 text1 dist/K16/production\Klondike.X.production.obj
-intlevel2 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s57g.obj
+intlevel2 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s4qc.obj
 __end_of___awtoft 3974 0 CODE 0 text30 dist/K16/production\Klondike.X.production.obj
 ___lltoft@exp 65 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
 __end_of_USBCBCheckOtherReq 1000 0 CODE 0 text56 dist/K16/production\Klondike.X.production.obj
-intlevel3 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s57g.obj
+intlevel3 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s4qc.obj
 __size_of_InitWorkTick 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 __size_of___lmul 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 SetAsicClock@frequency DE 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
 i1SendCmdReply@data 78 0 COMMON 1 cstackCOMMON dist/K16/production\Klondike.X.production.obj
 _USBCtrlTrfTxService 2A28 0 CODE 0 text45 dist/K16/production\Klondike.X.production.obj
 USBDeviceInit@i 5D 0 BANK0 1 cstackBANK0 dist/K16/production\Klondike.X.production.obj
-intlevel4 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s57g.obj
+intlevel4 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s4qc.obj
 USBStdFeatureReqHandler@pUEP A8 0 BANK1 1 cstackBANK1 dist/K16/production\Klondike.X.production.obj
-intlevel5 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s57g.obj
+intlevel5 0 0 CODE 0 functab C:\Users\Jojko\AppData\Local\Temp\s4qc.obj
 __size_of_Send32 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
 _ResultQC 133 0 BANK2 1 bssBANK2 dist/K16/production\Klondike.X.production.obj
 __size_of_USBSuspend 0 0 ABS 0 - dist/K16/production\Klondike.X.production.obj
